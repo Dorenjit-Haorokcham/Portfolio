@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="https://lastfm.freetls.fastly.net/i/u/770x0/a3e5791abc8a4754bed65cd407cc962b.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen and (max-device-width: 900px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-device-width: 450px)" href="phone.css">
+</head>
+<body >
+    <div id="container">
+        <div class="navbar">
+            <div id="nav">
+                <ul class="links">
+                    <li><a href="#top">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skillboxing">SKILL</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div id="vl"></div>
+        <div id="follow">
+            <a href="https://www.linkedin.com/in/dorenjit-haorokcham-88ba5324b" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </i><br>
+            <a href="https://www.facebook.com/Dorenjit" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <br>
+        </div>
+        <marquee behavior="300" direction="left" id="top"><h2>Welcome To My Portfolio</h2></marquee>
+        <div id="box1">
+            <div id="hello"> HELLO EVERYONE,</div>
+            <div id="me">I'am <span id="rks">Dorenjit Haorokcham</span></div>
+            <div id="webdev">A Web Developer</div>
+            <div id="para1">
+                <i>
+                    <h3>
+                        I am a student, currently persuading B.tech (Computer Science & Engineering) course. My background is in Computer Science. I loved programming form early ages & loved to explored about new technology. 
+                    </h3>
+                       
+                </i>    
+            </div>
+        </div>
+        <button id="btncontact" type="button"><a href="#contact"> Contact</a></button>
+        <div id="pic">
+            <img src="displayyy.png" alt="">
+        </div>
+        <div id="about">
+            <div class="boxing" id="education">
+                <h1 style="color:cyan;">
+                    <u>
+                        Education :
+                    </u>
+                </h1>
+                <h2>
+                    High School passout from HUMAN RESOURCE DEVELOPMENT ACADEMY, year 2018.<br>
+                    Higher Secondary passout from HUMAN RESOURCE DEVELOPMENT ACADEMY, year 2020.<br>
+                    Currently persuading B.tech - Computer Science & Engineering at MANIPUR TECHNICAL UNIVERSITY.
+                </h2>
+            </div>
+            <div class="boxing" id="hobby">
+                <h1 style="color:cyan;">
+                    <u>
+                        Hobbies :
+                    </u>
+                </h1>
+                <h2>
+                    Coding<br>Web Design
+                </h2>
+                <h1 style="color:cyan;">
+                    <u>
+                        Other Activities :
+                    </u>
+                    <h2>
+                        Listning music<br>Playing Guitar<br>Reading
+                    </h2>
+            </div>
+        </div>
+        <div id="skill">
+            <div id="skillboxing">
+                <h1 style="color:cyan;">
+                    <u>
+                        My Skills :
+                    </u>
+                </h1>
+                <br>
+                    <h3 style="color:cyan;">
+                        <u>
+                           Familiar Language:
+                        </u>
+                    </h3>
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <h3 style="color:cyan;">
+                            <u>
+                               Knowledge Language:
+                            </u>
+                        </h3>      
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>Bash Shell Programming Language</li>
+                            <li>JavaScript</li>
+                        </ul>
+                            
+                </ul>
+            </div>
+        </div>
+        <div class="imagelast">
+            <marquee behavior="200" direction="left" id="quotes"><h1>Where there's Code, there's Bug</h1>
+            </marquee>
+        </div>
+        <footer id="contact">
+            <h1 style="color:cyan;">
+                <u>
+                    Contact me on :
+                    
+                </u>
+            </h1>
+                <a href="https://www.linkedin.com/in/dorenjit-haorokcham-88ba5324b" target="_blank"><i class="fa fa-linkedin" aria-hidden="true">&nbsp; LinkedIn</i></a><br>
+                <a href="https://www.facebook.com/Dorenjit" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;Facebook</a><br>
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true">&nbsp;dorenjithaorokcham99@gmail.com</i></a><br>
+                <a href="#"><i class="fa fa-address-book" aria-hidden="true">&nbsp;+91 7085355823</i></a><br>
+                <a href="#"><i class="fa fa-location-arrow" aria-hidden="true">&nbsp;India,Manipur,Imphal</i></a><br>
+    </footer>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+<script>
+    let mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   
+
+const slide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.navbar');
+        const navlinks = document.querySelectorAll('.links li');
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('navbaract');
+
+            navlinks.forEach((link, index) => {
+
+                if (link.style.animation) {
+                    link.style.animation = '';
+                }
+                else {
+                    link.style.animation = `navlinkfade 3s ease backwards ${index / 4}s`;
+                }
+            });
+        });
+    }
+    slide();
+    
+</script>
+</html>
